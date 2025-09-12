@@ -61,6 +61,7 @@ header("Pragma: no-cache");
             <textarea id="description" placeholder="Description"></textarea>
             <button type="submit">Save Event</button>
             <button type="button" onclick="clearForm()">Cancel</button>
+            <button type="button" id="delete-btn" style="background:red;color:white;display:none;">Delete Event</button>
         </form>
 
         <div id="calendar-controls">

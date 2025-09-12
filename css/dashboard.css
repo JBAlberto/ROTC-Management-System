@@ -169,3 +169,15 @@ input, textarea, button {
 .calendar-day.empty {
     background: #f0f0f0;
 }
+#upcoming-events {
+    margin-top: 10px;
+}
+
+.event-item {
+    padding: 8px;
+    margin-bottom: 6px;
+    border-left: 4px solid #004080;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+

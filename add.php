@@ -47,6 +47,7 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/roster.css">
+    <link rel="icon" href="css/images/logo.jpg">
 </head>
 <body>
     <header>
@@ -58,7 +59,7 @@ if (isset($_POST['submit'])) {
             <li><a href="dashboard.php">Dashboard</a></li>
             <li class="active"><a href="#">Roster of Cadets</a></li>
             <li><a href="rs.php">Reports and Schedule</a></li>
-            <li><a href="att.php">Attendance</a></li>
+            <li><a href="att_check.php">Attendance</a></li>
             <li><a href="backend/logout.php">Logout</a></li>
         </ul>
     </div>

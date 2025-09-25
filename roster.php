@@ -44,7 +44,7 @@ try {
             <li><a href="dashboard.php">Dashboard</a></li>
             <li class="active"><a href="#">Roster of Cadets</a></li>
             <li><a href="rs.php">Reports and Schedule</a></li>
-            <li><a href="att.php">Attendance</a></li>
+            <li><a href="att_check.php">Attendance</a></li>
             <li><a href="backend/logout.php">Logout</a></li>
         </ul>
     </div>

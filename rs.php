@@ -14,7 +14,7 @@ try {
 }
 
 if (!isset($_SESSION['user'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -77,3 +77,4 @@ header("Pragma: no-cache");
     <script src="js/rs.js"></script>
 </body>
 </html>
+

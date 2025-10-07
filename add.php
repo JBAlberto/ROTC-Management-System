@@ -7,7 +7,7 @@ $user = 'root';
 $pass = '';
 
 if (!isset($_SESSION['user'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 // Prevent browser from caching the page
@@ -98,3 +98,4 @@ if (isset($_POST['submit'])) {
     <script src="js/script.js"></script>
 </body>
 </html>
+

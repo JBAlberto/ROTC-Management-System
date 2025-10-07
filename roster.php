@@ -7,7 +7,7 @@ $user = 'root';
 $pass = '';
 
 if (!isset($_SESSION['user'])) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit;
 }
 
@@ -125,4 +125,5 @@ try {
     <script src="js/script.js"></script>
 </body>
 </html>
+
 

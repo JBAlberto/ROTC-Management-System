@@ -15,7 +15,7 @@ try {
 }
 
 if (!isset($_SESSION['user'])) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit;
 }
 
@@ -95,4 +95,5 @@ $femaleCadets = $pdo->query("SELECT COUNT(*) FROM students WHERE gender='Female'
 <script src="js/dashboard.js"></script>
 </body>
 </html>
+
 

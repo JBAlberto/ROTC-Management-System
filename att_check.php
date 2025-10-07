@@ -7,7 +7,7 @@ $user = 'root';
 $pass = '';
 
 if (!isset($_SESSION['user'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -263,3 +263,4 @@ function deleteAttendance(studentId, eventId) {
 </script>
 </body>
 </html>
+
